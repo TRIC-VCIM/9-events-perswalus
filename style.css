@@ -1,0 +1,8 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+input,
+button {
+  font-size: 1.2rem;
+}

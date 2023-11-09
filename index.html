@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Numbler</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Numbler!</h1>
+      <p>
+        A random number between 0 and 100 has been generated, use the input
+        below to guess what the number might be. Each guess will provide a clue
+        whether you a further away (cooler) or closer (hotter)to the number.
+      </p>
+    </header>
+    <form>
+      <input
+        type="number"
+        min="0"
+        max="100"
+        id="guess"
+      />
+      <button
+        type="submit"
+        id="check"
+      >
+        Check My Answer
+      </button>
+    </form>
+    <p id="message"></p>
+    <ul id="log"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
